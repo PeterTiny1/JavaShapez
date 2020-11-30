@@ -33,8 +33,7 @@ public class Main extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         setBackground(Color.WHITE);
-        Graphics2D g2d = (Graphics2D) g;
-
+//        Graphics2D g2d = (Graphics2D) g;
     }
 
     public static void main(String... args) {
