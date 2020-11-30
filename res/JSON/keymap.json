@@ -1,0 +1,64 @@
+{
+  "general": {
+    "confirm": {
+      "keyCode": 13
+    },
+    "back": {
+      "keyCode": 27
+    }
+  },
+  "ingame": {
+    "menuOpenShop": {
+      "keyCode": 70
+    },
+    "menuOpenStats": {
+      "keyCode": 71
+    },
+    "menuClose": {
+      "keyCode": 81
+    },
+    "toggleHud": {
+      "keyCode": 113
+    },
+    "exportScreenshot": {
+      "keyCode": 114
+    },
+    "toggleFPSInfo": {
+      "keyCode": 115
+    },
+    "switchLayers": {
+      "keyCode": 69
+    }
+  },
+  "navigation": {
+    "mapMoveUp": {
+      "keyCode": 87
+    },
+    "mapMoveRight": {
+      "keyCode": 68
+    },
+    "mapMoveDown": {
+      "keyCode": 83
+    },
+    "mapMoveLeft": {
+      "keyCode": 65
+    },
+    "mapMoveFaster": {
+      "keyCode": 16
+    },
+    "centerMap": {
+      "keyCode": 32
+    },
+    "mapZoomIn": {
+      "keyCode": 187,
+      "repeated": true
+    },
+    "mapZoomOut": {
+      "keyCode": 189,
+      "repeated": true
+    },
+    "createMarker": {
+      "keyCode": 77
+    }
+  }
+}
