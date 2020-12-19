@@ -36,8 +36,6 @@ public class Application {
         this.registerStates();
         loader.linkAppAfterBoot(this);
         this.stateMgr.moveToState("PreloadState");
-//        this.ticker.frameEmitted.add(onFrameEmitted());
-//        this.ticker.bgFrameEmitted.add(onBackgroundFrame());
     }
 
     public void onBackgroundFrame(long dt) {
@@ -48,8 +46,6 @@ public class Application {
     }
 
     public void onFrameEmitted(long dt) {
-//        long time = System.nanoTime();
-
         GameState currentState = this.stateMgr.getCurrentState();
         if (currentState != null) {
             currentState.onRender(dt);
